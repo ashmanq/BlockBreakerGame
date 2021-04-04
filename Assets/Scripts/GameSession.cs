@@ -52,6 +52,6 @@ public class GameSession : MonoBehaviour
 
     public bool IsAutoPlayEnabled()
     {
-        return isActiveAndEnabled;
+        return isAutoPlayEnabled;
     }
 }
